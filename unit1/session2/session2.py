@@ -69,7 +69,10 @@ Example Output:
 """
 
 def remove_dupes(items):
-    pass
+    i = 0
+    for j in range(len(1, items)):
+        if items[i] != items[j]:
+            
 
 """
 
