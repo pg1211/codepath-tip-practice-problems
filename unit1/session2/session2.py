@@ -30,8 +30,10 @@ transpose(matrix)
 ]
 """
 
+
 def transpose(matrix):
     pass
+
 
 """
 Example Usage
@@ -44,8 +46,15 @@ Example Output:
 ["eeyore", "roo", "piglet", "christopher robin", "pooh"]
 """
 
+
 def reverse_list(lst):
-    pass
+    ret = []
+
+    for elem in lst:
+        ret = elem + ret
+
+    return ret
+
 
 """
 
@@ -68,11 +77,11 @@ Example Output:
 4
 """
 
-def remove_dupes(items):
-    i = 0
-    for j in range(len(1, items)):
-        if items[i] != items[j]:
-            
+# def remove_dupes(items):
+#     i = 0
+#     for j in range(len(1, items)):
+#         if items[i] != items[j]:
+
 
 """
 
@@ -94,6 +103,7 @@ Example Output:
 [2, 4, 3, 1]
 [0]
 """
+
 
 def sort_by_parity(nums):
     pass
